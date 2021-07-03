@@ -8,8 +8,8 @@ pip install -r requirements.txt
 
 ## Get Spotify UserID and Oauth token
 
-* To collect your UserID, log into Spotify then go here: Go to [Account Overview], it is your username.
-* To collect Oauth token, go here: [GetOauth]
+* To collect your UserID, log into Spotify then go here: Go to [Account Overview](https://www.spotify.com/us/account/overview/), it is your username.
+* To collect Oauth token, go here: [GetOauth](https://developer.spotify.com/console/post-playlists/)
 
 ## Enable Oauth for Youtube and download client_secrets.json
 
@@ -21,15 +21,14 @@ Follow the link here [Set Up Youtube Oauth].
 python3 PlaylistHandler.py 
 ```
 
-##ToDo
+## ToDo
 
 * Testing
 * Error Handling
 
-##Caution
+## Caution
 
 Spotify Oauth token expires in a short time interval. If `KeyError` is seen, then regenerate the token.
 
 
-[Get Oauth]: <https://developer.spotify.com/console/post-playlists/>
 [Set Up Youtube Oauth]: <https://developers.google.com/youtube/v3/getting-started/>
